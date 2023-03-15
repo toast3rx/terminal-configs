@@ -1,0 +1,4 @@
+# start tmux session (only once!)
+if [ -z "$TMUX" ] && [[ "$USER" == "mihai" ]]; then
+   exec tmux
+fi
